@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0c0e1a"/>
+      <stop offset="1" stop-color="#06070d"/>
+    </linearGradient>
+    <radialGradient id="glowL" cx="180" cy="200" r="360" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7c5cff" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#7c5cff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowR" cx="1050" cy="500" r="420" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="mark" x1="0" y1="0" x2="140" y2="140" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7c5cff"/>
+      <stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="500" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7c5cff"/>
+      <stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+    <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M 60 0 L 0 0 0 60" fill="none" stroke="rgba(124,92,255,0.08)" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+  <rect width="1200" height="630" fill="url(#glowL)"/>
+  <rect width="1200" height="630" fill="url(#glowR)"/>
+
+  <!-- Logo mark -->
+  <g transform="translate(90 86)">
+    <rect width="120" height="120" rx="28" fill="url(#mark)"/>
+    <text x="60" y="60" text-anchor="middle" dominant-baseline="central"
+          font-family="'Space Grotesk','Inter',system-ui,sans-serif"
+          font-weight="700" font-size="76" fill="#ffffff">B</text>
+  </g>
+
+  <!-- Name label -->
+  <text x="240" y="130"
+        font-family="'JetBrains Mono',ui-monospace,monospace"
+        font-size="22" letter-spacing="8" fill="#22d3ee"
+        style="text-transform:uppercase">SENIOR  FULL-STACK  ENGINEER</text>
+  <text x="240" y="192"
+        font-family="'Space Grotesk','Inter',system-ui,sans-serif"
+        font-weight="700" font-size="68" fill="#ffffff">Behlole Aqil</text>
+
+  <!-- Headline -->
+  <text x="90" y="320"
+        font-family="'Space Grotesk','Inter',system-ui,sans-serif"
+        font-weight="700" font-size="92" letter-spacing="-2" fill="#ffffff">I build full-stack platforms</text>
+  <text x="90" y="416"
+        font-family="'Space Grotesk','Inter',system-ui,sans-serif"
+        font-weight="700" font-size="92" letter-spacing="-2" fill="url(#accent)">and scalable microservices.</text>
+
+  <!-- Subtext / tags -->
+  <g font-family="'JetBrains Mono',ui-monospace,monospace" font-size="22" fill="#9aa3c7">
+    <text x="90" y="500">ANGULAR  ·  REACT  ·  NEXT.JS  ·  SPRING BOOT  ·  NODE.JS  ·  POSTGRESQL</text>
+    <text x="90" y="540">EASYPAISA  ·  JAZZCASH  ·  FOODPANDA  ·  ZTBL  ·  MYSIMPLERX</text>
+  </g>
+
+  <!-- Footer pill -->
+  <g transform="translate(90 575)">
+    <circle cx="6" cy="6" r="6" fill="#a3e635"/>
+    <text x="22" y="6" dominant-baseline="central"
+          font-family="'JetBrains Mono',ui-monospace,monospace"
+          font-size="18" letter-spacing="4" fill="#e8eaf2"
+          style="text-transform:uppercase">behlole.github.io  ·  open to remote &amp; relocation</text>
+  </g>
+</svg>
