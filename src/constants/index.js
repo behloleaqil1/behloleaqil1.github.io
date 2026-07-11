@@ -42,7 +42,7 @@ export const profile = {
     phone: "+92 335 8432691",
     website: "https://behlole.github.io",
     socials: {
-        github: "https://github.com/behlole",
+        github: "https://github.com/behloleaqil1",
         linkedin: "https://linkedin.com/in/behlole",
         twitter: "https://twitter.com/",
     },
