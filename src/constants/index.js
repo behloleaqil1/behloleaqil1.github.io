@@ -40,7 +40,7 @@ export const profile = {
     availability: "Open to remote & relocation — globally",
     email: "behloleaqil@gmail.com",
     phone: "+92 335 8432691",
-    website: "https://behlole.github.io",
+    website: "https://behloleaqil1.github.io",
     socials: {
         github: "https://github.com/behloleaqil1",
         linkedin: "https://linkedin.com/in/behlole",
